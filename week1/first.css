@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+body{
+    font-size: 24px;
+    line-height: 32px;
+}
+.pl-2{
+    padding-left: 16px;
+}
+.pl-3{
+    padding-left: 24px;
+}
+.pb-3{
+    padding-bottom: 24px;
+}
+.pt-3{
+    padding-top: 24px;
+}
+.py-3{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.ml-3{
+    margin-left: 24px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mb-3{
+    margin-bottom: 24px;
+}
+.mb-4{
+    margin-bottom: 32px;
+}
+.mb-6{
+    margin-bottom: 48px;
+}
+.mb-9{
+    margin-bottom: 72px !important;
+}
+.bg__dark{
+    background: #415165;
+}
+.text-center{
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 80px;
+    line-height: 106px;
+    border-bottom: 3px solid #000;
+}
+
+.title__sm{
+    font-size: 32px;
+    line-height: 45px;
+    border-bottom: 1px solid #000;
+}
+.title__sm span{
+    font-size: 24px;
+    color:#A00404;
+    line-height: 32px;
+    padding-left: 16px;
+}
+
+.title__sm__white{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 37px;
+}
+.title__sm__white span{
+    color: white;
+}
+
+.skill{
+    max-width: 996px;
+    margin: 0 auto;
+}
+.skill-dec{
+    width: 218px;
+    margin: 0 auto;
+    color:#96a9c4;
+    border-left: 1px solid #96a9c4;
+}
+.skill-dec{
+    line-height: 32px;
+}
+.workExp-dec h3{
+    line-height: 34px;
+}
+.workExp-dec p{
+    font-size: 20px;
+    line-height: 31px;
+}
+.workExp-dec img{
+    height: 90px;
+    width: 90px;
+}
+.contact-dec{
+    color:#96a9c4;
+}
+.contact-dec li{
+    margin-bottom: 16px;
+}
+.contact-dec img{
+    height: 48px;
+    width: 48px;
+}

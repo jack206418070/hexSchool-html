@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.content{
+    display: flex;
+}
+.list{
+    margin-right: 24px;
+}
+
+.list-item{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.list-item img{
+    display: block;
+    margin-right: 20px;
+}
+
+.content-ad img{
+    display: block;
+}
+
+.list-item-text h2{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.list-item-text p{
+    line-height: 1.5;
+} 
+
+
+.footer{
+    padding: 48px 0;
+}
+
+.footer p{
+    text-align: center;
+    line-height: 1.5;
+}
