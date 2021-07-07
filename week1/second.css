@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+img{
+    vertical-align: middle;
+}
+
 .my-3{
     margin-top: 30px !important;
     margin-bottom: 30px !important;
@@ -29,22 +33,22 @@
 }
 
 .list-item img{
-    display: block;
     margin-right: 20px;
-}
-
-.content-ad img{
-    display: block;
 }
 
 .list-item-text h2{
     font-size: 20px;
     line-height: 1.2;
 }
+.list-item img{
+    height: 96px;
+    width: 96px;
+}
 
 .list-item-text p{
     line-height: 1.5;
 } 
+
 
 
 .footer{
