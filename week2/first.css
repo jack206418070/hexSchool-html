@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.bg-dark{
+    background-color: #000000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mb-1{
+    margin-bottom: 4px;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.mb-6{
+    margin-bottom: 24px;
+}
+.mb-7{
+    margin-bottom: 28px;
+}
+.mb-8{
+    margin-bottom: 32px;
+}
+.mb-10{
+    margin-bottom: 40px;
+}
+.mb-13{
+    margin-bottom: 52px;
+}
+.mb-17{
+    margin-bottom: 68px;
+}
+.mb-14{
+    margin-bottom: 56px;
+}
+.py-7{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.py-16{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.pt-14{
+    padding-top: 56px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.df-wrap{
+    flex-wrap: wrap;
+}
+.jy-between{
+    justify-content: space-between;
+}
+
+body{
+    font-size: 24px;
+    line-height: 1.3;
+    font-family: 'Roboto', sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+
+.df-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jy-around{
+    justify-content: space-around;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url("./image/photo-1552393700-42696fb89bfa/photo-1552393700-42696fb89bfa.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-content{
+    width: 340px;
+    margin: 0 auto;
+    color:#ffffff;
+}
+
+.header-content h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.header-content .dec{
+    padding-left: 13px;
+    font-weight: bold;
+}
+
+.about{
+    width: 412px;
+    margin: 0 auto;  
+    text-align: center;
+    font-weight: bold;
+}
+.title{
+    font-size: 64px;
+}
+
+.about .exp{
+    width: 384px;
+    border-top: 1px solid #000;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 18px !important;
+}
+
+.exp li{
+    position: relative;
+}
+
+.exp .circle{ 
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background: #891818;
+    border-radius: 50%;
+    top: 4px;
+    left: -13px;
+}
+
+.circle-middle{
+    left: 30px !important;
+}
+.circle-bottom{
+    left: -22px !important;
+}
+
+.brand{
+    color: white;
+    padding-bottom: 140px;
+    padding-top: 56px;
+}
+.otherWork{
+    margin-bottom: 144px;
+}
+
+.img-item{
+    margin-bottom: 48px;
+}
+
+.img-item img{
+    margin-bottom: 16px;
+}
+
+.contact{
+    color: white;
+}
