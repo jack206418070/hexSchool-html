@@ -47,6 +47,7 @@ table {
     box-sizing: border-box;
 }
 
+
 img{
     max-width: 100%;
     height: auto;
@@ -83,7 +84,7 @@ img{
     margin-bottom: 40px;
 }
 .mb-13{
-    margin-bottom: 52px;
+    margin-bottom: 52px !important;
 }
 .mb-17{
     margin-bottom: 68px;
@@ -140,7 +141,7 @@ body{
 
 .header{
     background-image: url("./image/photo-1552393700-42696fb89bfa/photo-1552393700-42696fb89bfa.png");
-    height: 100vh;
+    height: 958px;
     background-size: cover;
     background-position: center center;
 }
@@ -160,6 +161,9 @@ body{
     padding-left: 13px;
     font-weight: bold;
 }
+.icon-group li{
+    cursor: pointer;
+}
 
 .about{
     width: 412px;
@@ -174,30 +178,18 @@ body{
 .about .exp{
     width: 384px;
     border-top: 1px solid #000;
-    padding-right: 35px;
-    padding-left: 35px;
-    margin-left: 18px !important;
+    margin: 0 auto;
 }
 
-.exp li{
-    position: relative;
-}
-
-.exp .circle{ 
-    position: absolute;
+.exp li::before{
+    content: "";
+    display: inline-block;
     height: 22px;
     width: 22px;
-    background: #891818;
     border-radius: 50%;
-    top: 4px;
-    left: -13px;
-}
-
-.circle-middle{
-    left: 30px !important;
-}
-.circle-bottom{
-    left: -22px !important;
+    background: #891818;
+    margin-right: 16px;
+    vertical-align: middle;
 }
 
 .brand{
@@ -219,4 +211,12 @@ body{
 
 .contact{
     color: white;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    color:brown;
 }
